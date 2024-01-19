@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import type { Metadata } from "next"; //adds static metadata
 import getAllUsers from "@/lib/getAllUsers";
 import Link from "next/link";

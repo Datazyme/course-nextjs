@@ -1,5 +1,3 @@
-import React from "react";
-
 //server side rendered gets cached after first call
 export default async function getUserPosts(userId: string) {
   const res = await fetch(
